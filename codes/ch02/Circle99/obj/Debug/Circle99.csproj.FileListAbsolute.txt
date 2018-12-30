@@ -1,0 +1,7 @@
+C:\Users\jiaxy\source\repos\ch02\Circle99\bin\Debug\Circle99.exe
+C:\Users\jiaxy\source\repos\ch02\Circle99\bin\Debug\Circle99.pdb
+C:\Users\jiaxy\source\repos\ch02\Circle99\obj\Debug\Circle99.Form1.resources
+C:\Users\jiaxy\source\repos\ch02\Circle99\obj\Debug\Circle99.csproj.GenerateResource.cache
+C:\Users\jiaxy\source\repos\ch02\Circle99\obj\Debug\Circle99.csproj.CoreCompileInputs.cache
+C:\Users\jiaxy\source\repos\ch02\Circle99\obj\Debug\Circle99.exe
+C:\Users\jiaxy\source\repos\ch02\Circle99\obj\Debug\Circle99.pdb

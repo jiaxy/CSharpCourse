@@ -1,0 +1,7 @@
+Z:\SynologyDrive\教学\C#\2018年\workspace\examples\ch02\XMLSample\bin\Debug\XMLSample.exe.config
+Z:\SynologyDrive\教学\C#\2018年\workspace\examples\ch02\XMLSample\bin\Debug\XMLSample.exe
+Z:\SynologyDrive\教学\C#\2018年\workspace\examples\ch02\XMLSample\bin\Debug\XMLSample.pdb
+Z:\SynologyDrive\教学\C#\2018年\workspace\examples\ch02\XMLSample\obj\Debug\XMLSample.csprojAssemblyReference.cache
+Z:\SynologyDrive\教学\C#\2018年\workspace\examples\ch02\XMLSample\obj\Debug\XMLSample.csproj.CoreCompileInputs.cache
+Z:\SynologyDrive\教学\C#\2018年\workspace\examples\ch02\XMLSample\obj\Debug\XMLSample.exe
+Z:\SynologyDrive\教学\C#\2018年\workspace\examples\ch02\XMLSample\obj\Debug\XMLSample.pdb

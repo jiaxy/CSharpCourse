@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- My BookList -->
+<dotnet_books>
+	<book isbn="1861004877" topic="C#">
+		<title>C# Programming with the Public Beta</title>
+		<publisher>Wrox Press</publisher>
+		<author>Burton Harvey</author>
+		<author>Simon Robinson</author>
+		<author>Julian Templeman</author>
+		<author>Simon Watson</author>
+		<price>34.99</price>
+	</book>
+	<book isbn="1861004915" topic="VB">
+		<title>VB.NET Programming with the Public Beta</title>
+		<publisher>Wrox Press</publisher>
+		<author>Billy Hollis</author>
+		<author>Rockford Lhotka</author>
+		<price>34.99</price>
+	</book>
+	<book isbn="1893115860" topic="C#">
+		<title>A Programmers'  Introduction to C#</title>
+		<publisher>APress</publisher>
+		<author>Eric Gunnerson</author>
+		<price>34.95</price>
+	</book>
+	<book isbn="073561377X" topic=".NET">
+		<title>Introducing Microsoft .NET</title>
+		<publisher>Microsoft Press</publisher>
+		<author>David Platt</author>
+		<price>29.99</price>
+	</book>
+</dotnet_books>
