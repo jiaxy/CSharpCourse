@@ -13,8 +13,11 @@ namespace ADODataSet {
       Program p = new Program();
       QueryBooks();
       LINQInDataSet();
-      EditInDataSet();
       AddRowInDataSet();
+      QueryBooks();
+      EditInDataSet();
+      QueryBooks();
+
     }
     private static void LINQInDataSet() {
       using (MySqlConnection conn = GetConnection()) {
@@ -22,7 +25,7 @@ namespace ADODataSet {
         using (MySqlDataAdapter dataAdapter = new MySqlDataAdapter(sql, conn)) {
           using (DataSet ds = new DataSet()) {
             dataAdapter.Fill(ds);
-            DataRow[] rows = ds.Tables[0].Select("AuthorId=6");
+            DataRow[] rows = ds.Tables[0].Select("AuthorId=5");
             for (int i = 0; i < rows.Length; i++) {
               Console.WriteLine($"{rows[i][0]},{rows[i][1]},{rows[i][2]}");
             }
@@ -78,6 +81,7 @@ namespace ADODataSet {
     }
 
     private static void QueryBooks() {
+      Console.WriteLine("QueryAllBooks");
       using (MySqlConnection conn = GetConnection()) {
         String sql = "SELECT * FROM Books";
         using (MySqlDataAdapter dataAdapter = new MySqlDataAdapter(sql, conn)) {

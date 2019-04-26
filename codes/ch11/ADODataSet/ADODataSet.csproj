@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{10775BC7-9940-427F-8E50-48B0B513B25C}</ProjectGuid>
+    <ProjectGuid>{CF47F26C-E120-439A-A34F-11B0601371C8}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>ADODataSet</RootNamespace>
     <AssemblyName>ADODataSet</AssemblyName>

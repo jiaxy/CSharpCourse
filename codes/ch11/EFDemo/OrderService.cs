@@ -11,9 +11,9 @@ namespace EFDemo {
 
     public void Add(Order order) {
       using (var db = new OrderDB()) {
-        db.Order.Add(order);
+        //db.Order.Add(order);
         //db.Order.Attach(order);
-        //db.Entry(order).State = EntityState.Added;
+        db.Entry(order).State = EntityState.Added;
         db.SaveChanges();
       }
     }
@@ -27,13 +27,21 @@ namespace EFDemo {
       }
     }
 
-    public void Update(Order order) {
+    public void Update(Order order,List<OrderItem> removed,List<OrderItem> newItems) {
       using (var db = new OrderDB()) {
-        Console.WriteLine(db.Entry(order).State);
+        order.Items.AddRange(newItems);
+        foreach (OrderItem item in order.Items) {
+          if (removed.Contains(item)) {
+            db.Entry(item).State = EntityState.Deleted;
+          }else if (newItems.Contains(item)) {
+            db.Entry(item).State = EntityState.Added;
+          } else {
+            db.Entry(item).State = EntityState.Modified;
+          }
+        }
+        db.SaveChanges();//先保存items部分的修改
         db.Entry(order).State = EntityState.Modified;
-        order.Items.ForEach(
-            item => db.Entry(item).State = EntityState.Modified);
-        db.SaveChanges();
+        db.SaveChanges();//保存Order的属性修改
       }
     }
 

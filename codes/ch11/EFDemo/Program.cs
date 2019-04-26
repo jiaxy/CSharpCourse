@@ -20,7 +20,15 @@ namespace EFDemo {
       orderService.Add(order);
 
       Order order2 = new Order("001", "jia2", DateTime.Now, items);
-      orderService.Update(order2);
+      List<OrderItem> removed = new List<OrderItem>();
+      List<OrderItem> newItems = new List<OrderItem>();
+      removed.Add(new OrderItem("1", "apple", 10.0, 20));
+      newItems.Add(new OrderItem("3", "orange", 30.0, 20));
+      orderService.Update(order2,removed,newItems);
+
+
+
+
 
 
       List<Order> orders = orderService.QueryByCustormer("jia2");

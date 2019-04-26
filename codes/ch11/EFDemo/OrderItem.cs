@@ -19,5 +19,11 @@ namespace EFDemo {
             UnitPrice = unitPrice;
             Quantity = quantity;
         }
-    }
+
+        public override bool Equals(object obj) {
+          var item = obj as OrderItem;
+          return item != null &&
+                 Id == item.Id;
+        }
+  }
 }

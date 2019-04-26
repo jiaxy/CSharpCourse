@@ -11,11 +11,11 @@ namespace ADODemo {
     class Program {
         static void Main(string[] args) {
             Program p = new Program();
-            Console.WriteLine("InsertAuthor:");
+            Console.WriteLine("InsertAuthor:莫言");
             InsertAuthor();
             QueryAuthors();
 
-            Console.WriteLine("DeleteAuthor:");
+            Console.WriteLine("DeleteAuthor:莫言");
             DeleteAuthor();
             QueryAuthors();
 
