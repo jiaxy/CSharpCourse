@@ -1,0 +1,15 @@
+{
+  "FilePath": "/Users/jiaxy/workspace/TodoApi/TodoApi.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": null,
+  "RootNamespace": "TodoApi",
+  "Documents": []
+}

@@ -1,0 +1,14 @@
+/Users/jiaxy/workspace/TodoApi/bin/Debug/netcoreapp2.1/TodoApi.deps.json
+/Users/jiaxy/workspace/TodoApi/bin/Debug/netcoreapp2.1/TodoApi.runtimeconfig.json
+/Users/jiaxy/workspace/TodoApi/bin/Debug/netcoreapp2.1/TodoApi.runtimeconfig.dev.json
+/Users/jiaxy/workspace/TodoApi/bin/Debug/netcoreapp2.1/TodoApi.dll
+/Users/jiaxy/workspace/TodoApi/bin/Debug/netcoreapp2.1/TodoApi.pdb
+/Users/jiaxy/workspace/TodoApi/obj/Debug/netcoreapp2.1/TodoApi.csprojAssemblyReference.cache
+/Users/jiaxy/workspace/TodoApi/obj/Debug/netcoreapp2.1/TodoApi.csproj.CoreCompileInputs.cache
+/Users/jiaxy/workspace/TodoApi/obj/Debug/netcoreapp2.1/TodoApi.RazorAssemblyInfo.cache
+/Users/jiaxy/workspace/TodoApi/obj/Debug/netcoreapp2.1/TodoApi.RazorAssemblyInfo.cs
+/Users/jiaxy/workspace/TodoApi/obj/Debug/netcoreapp2.1/TodoApi.AssemblyInfoInputs.cache
+/Users/jiaxy/workspace/TodoApi/obj/Debug/netcoreapp2.1/TodoApi.AssemblyInfo.cs
+/Users/jiaxy/workspace/TodoApi/obj/Debug/netcoreapp2.1/TodoApi.RazorTargetAssemblyInfo.cache
+/Users/jiaxy/workspace/TodoApi/obj/Debug/netcoreapp2.1/TodoApi.dll
+/Users/jiaxy/workspace/TodoApi/obj/Debug/netcoreapp2.1/TodoApi.pdb
